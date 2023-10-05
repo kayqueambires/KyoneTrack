@@ -11,23 +11,22 @@ KyoneTrack é uma aplicação Python que permite rastrear encomendas dos Correio
 
 Para executar o KyoneTrack, você precisará das seguintes bibliotecas Python:
 
-requests
-twilio
+- requests
+- twilio
 
-Você pode instalá-las usando o `pip`:
-
-pip install requests twilio
-
+Você pode instalá-las usando o `pip`: 
+    ```
+    pip install requests twilio
+    ```
 ## Uso
 
 - Configure suas credenciais Twilio no código, substituindo `account_sid` e `auth_token` pelo SID e token de autenticação da sua conta Twilio.
 - Substitua 'seu-codigo-rastreamento' pelo código da encomenda que deseja rastrear.
 
 - Execute o script:
-
-   ```bash
-   python main.py
-
+    ```bash
+    python main.py
+    ```
 - O programa irá rastrear periodicamente a encomenda e enviar atualizações pelo WhatsApp quando houver novos eventos.
 
 ## Executando em Segundo Plano
@@ -37,10 +36,9 @@ pip install requests twilio
 - Abra o Prompt de Comando (cmd) e navegue até a pasta do projeto.
 
 - Execute o script usando pythonw.exe:
-
-   ```bash
-   python main.py
-
+    ```bash
+    pythonw main.py
+    ```
 - Para encerrar o programa, abra o Gerenciador de Tarefas (Task Manager) no Windows, encontre o processo python.exe ou pythonw.exe associado ao script e termine-o.
 
 O script será executado em segundo plano e não exibirá uma janela de terminal.
@@ -50,3 +48,15 @@ O script será executado em segundo plano e não exibirá uma janela de terminal
 Se encontrar problemas ou tiver sugestões para melhorar o KyoneTrack, sinta-se à vontade para enviar um email ou um pull request.
 
 Esperamos que esse projeto seja útil para você! Mantenha-se atualizado com as últimas atualizações dos Correios diretamente no seu WhatsApp.
+
+## Licença 
+
+*Este projeto está licenciado sob a [Licença MIT](LICENSE).*
+
+## Contato 
+
+#### *_Para qualquer dúvida ou feedback, entre em contato:_*
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/kayqueambires/)
+[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=E94D5F)](mailto:kayqueasilveira@gmail.com)
+
+---
