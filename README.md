@@ -15,7 +15,7 @@ Para executar o KyoneTrack, você precisará das seguintes bibliotecas Python:
 - twilio
 
 Você pode instalá-las usando o `pip`: 
-    ```
+    ```bash
     pip install requests twilio
     ```
 ## Uso
