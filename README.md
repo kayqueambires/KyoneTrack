@@ -37,7 +37,7 @@ Abra o Prompt de Comando (cmd) e navegue até a pasta do projeto.
 
 Execute o script usando pythonw.exe:
 
-    pythonw main.py
+    pythonw.exe main.py
 
 Para encerrar o programa, abra o Gerenciador de Tarefas (Task Manager) no Windows, encontre o processo python.exe ou pythonw.exe associado ao script e termine-o.
 
