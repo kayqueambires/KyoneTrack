@@ -20,33 +20,33 @@ pip install requests twilio
 
 ## Uso
 
-1. Configure suas credenciais Twilio no código, substituindo `account_sid` e `auth_token` pelo SID e token de autenticação da sua conta Twilio.
+- Configure suas credenciais Twilio no código, substituindo `account_sid` e `auth_token` pelo SID e token de autenticação da sua conta Twilio.
+- Substitua 'seu-codigo-rastreamento' pelo código da encomenda que deseja rastrear.
 
-2. Execute o script fornecendo o código de rastreamento como argumento:
+- Execute o script:
 
    ```bash
-   python main.py SEU_CODIGO_DE_RASTREAMENTO
+   python main.py
 
-Substitua SEU_CODIGO_DE_RASTREAMENTO pelo código da encomenda que deseja rastrear.
-
-    O programa irá rastrear periodicamente a encomenda e enviar atualizações pelo WhatsApp quando houver novos eventos.
-
-    Para encerrar o programa, abra o Gerenciador de Tarefas (Task Manager) no Windows, encontre o processo python.exe ou pythonw.exe associado ao script e termine-o.
+- O programa irá rastrear periodicamente a encomenda e enviar atualizações pelo WhatsApp quando houver novos eventos.
 
 ## Executando em Segundo Plano
 
-Você pode usar o pythonw.exe para executar o script em segundo plano:
+- Você pode usar o pythonw.exe para executar o script em segundo plano:
 
-Abra o Prompt de Comando (cmd) e navegue até a pasta do projeto.
+- Abra o Prompt de Comando (cmd) e navegue até a pasta do projeto.
 
-Execute o script usando pythonw.exe:
+- Execute o script usando pythonw.exe:
 
-pythonw.exe main.py SEU_CODIGO_DE_RASTREAMENTO
+   ```bash
+   python main.py
+
+- Para encerrar o programa, abra o Gerenciador de Tarefas (Task Manager) no Windows, encontre o processo python.exe ou pythonw.exe associado ao script e termine-o.
 
 O script será executado em segundo plano e não exibirá uma janela de terminal.
 
 ## Suporte e Contribuições
 
-Se encontrar problemas ou tiver sugestões para melhorar o KyoneTrack, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Se encontrar problemas ou tiver sugestões para melhorar o KyoneTrack, sinta-se à vontade para enviar um email ou um pull request.
 
 Esperamos que esse projeto seja útil para você! Mantenha-se atualizado com as últimas atualizações dos Correios diretamente no seu WhatsApp.
