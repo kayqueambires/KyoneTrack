@@ -24,9 +24,16 @@ Você pode instalá-las usando o `pip`:
 - Substitua 'seu-codigo-rastreamento' pelo código da encomenda que deseja rastrear.
 
 - Execute o script:
+<<<<<<< HEAD
     ```bash
     python main.py
     ```
+=======
+
+   ```bash
+   python main.py
+
+>>>>>>> 696cb8545a8d15ff94bb3706f32bb564e9aff379
 - O programa irá rastrear periodicamente a encomenda e enviar atualizações pelo WhatsApp quando houver novos eventos.
 
 ## Executando em Segundo Plano
@@ -36,9 +43,16 @@ Você pode instalá-las usando o `pip`:
 - Abra o Prompt de Comando (cmd) e navegue até a pasta do projeto.
 
 - Execute o script usando pythonw.exe:
+<<<<<<< HEAD
     ```bash
     pythonw main.py
     ```
+=======
+
+   ```bash
+   python main.py
+
+>>>>>>> 696cb8545a8d15ff94bb3706f32bb564e9aff379
 - Para encerrar o programa, abra o Gerenciador de Tarefas (Task Manager) no Windows, encontre o processo python.exe ou pythonw.exe associado ao script e termine-o.
 
 O script será executado em segundo plano e não exibirá uma janela de terminal.
@@ -48,6 +62,7 @@ O script será executado em segundo plano e não exibirá uma janela de terminal
 Se encontrar problemas ou tiver sugestões para melhorar o KyoneTrack, sinta-se à vontade para enviar um email ou um pull request.
 
 Esperamos que esse projeto seja útil para você! Mantenha-se atualizado com as últimas atualizações dos Correios diretamente no seu WhatsApp.
+<<<<<<< HEAD
 
 ## Licença 
 
@@ -60,3 +75,5 @@ Esperamos que esse projeto seja útil para você! Mantenha-se atualizado com as 
 [![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=E94D5F)](mailto:kayqueasilveira@gmail.com)
 
 ---
+=======
+>>>>>>> 696cb8545a8d15ff94bb3706f32bb564e9aff379
